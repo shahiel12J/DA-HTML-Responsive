@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(45deg, rgb(113, 137, 218) , rgb(172, 116, 70));
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100%;
+    overflow-x: hidden;
+}
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.card{
+    background-color: rgb(94, 93, 93);
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.col-xs-6{
+    padding: 50px;
+}
